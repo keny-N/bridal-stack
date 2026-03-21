@@ -1,0 +1,29 @@
+[
+  {
+    "id": "scene-01",
+    "scene_name": "ゲスト迎賓",
+    "song_title": "Café de Paris",
+    "artist_name": "Wedding Jazz Quintet",
+    "message": "ゲストの皆様にリラックスしていただきたく、二人がよくカフェで聴いているこの曲を選びました。",
+    "lyrics": "Instrumental (No Lyrics)",
+    "lyrics_url": ""
+  },
+  {
+    "id": "scene-02",
+    "scene_name": "新郎新婦入場",
+    "song_title": "Wonderful Day",
+    "artist_name": "Example Artist",
+    "message": "扉が開く瞬間の盛り上がりを重視して選びました！この曲のサビにある『最高の1日が始まる』というフレーズが、今の私たちの気持ちにぴったりです。",
+    "lyrics": "It's a wonderful day, everything is bright.\nHand in hand, we start our life tonight.\nEverything's gonna be alright, it's a wonderful day.",
+    "lyrics_url": "https://example.com/lyrics/wonderful-day"
+  },
+  {
+    "id": "scene-03",
+    "scene_name": "乾杯",
+    "song_title": "Cheers to Love",
+    "artist_name": "BGM Masters",
+    "message": "乾杯の瞬間にふさわしい、明るい曲を選びました！皆様との新しい門出を祝して。",
+    "lyrics": "Raise your glass, fill it high.\nLet's celebrate under the sky.\nCheers to love, cheers to you.",
+    "lyrics_url": ""
+  }
+]

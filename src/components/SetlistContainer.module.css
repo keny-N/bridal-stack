@@ -1,0 +1,9 @@
+.container {
+  padding-bottom: 80px; /* BottomNavのスペースを確保 */
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-muted);
+}
