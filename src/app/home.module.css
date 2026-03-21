@@ -1,0 +1,26 @@
+.container {
+  padding-top: 1rem;
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.welcome h2 {
+  font-size: 1.25rem;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.welcome p {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0 0.5rem;
+}

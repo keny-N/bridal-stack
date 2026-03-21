@@ -1,26 +1,34 @@
-# Implementation Plan: bridal-stack
+# Implementation Plan: bridal-stack (Home Expansion)
 
 ## Tasks
 
-### 1. プロジェクト初期化と環境構築
-- [x] 1.1 Next.js (App Router) + TypeScript プロジェクトのセットアップ
-- [x] 1.2 グローバルスタイルとテーマカラーの設定
-  - _Requirements: NF01_
+### 5. ルーティングの刷新と既存機能の移設
+- [ ] 5.1 既存の `src/app/page.tsx` の内容を `src/app/setlist/page.tsx` へ移設
+  - セットリスト専用の個別ページとして構成
+  - _Requirements: F04_
+- [ ] 5.2 共通レイアウト (`src/app/layout.tsx`) の調整
+  - 全画面に `BottomNav` を表示し、ホームへのリンクを設ける
+  - _Requirements: F04_
 
-### 2. データ層の実装
-- [x] 2.1 静的データファイル (setlist.json) の作成
-  - _Requirements: F01, F02_
-- [x] 2.2 データ型の定義 (TypeScript Interface)
-  - _Requirements: F01, F02_
+### 6. ホーム画面（ポータル）の実装
+- [ ] 6.1 新しいホーム画面 (`src/app/page.tsx`) の作成
+  - ウェルカムメッセージの表示
+  - _Requirements: F03_
+- [ ] 6.2 タイル型メニューボタン (`MenuTile`) コンポーネントの作成
+  - 押しやすいサイズのグリッド表示
+  - 各種アイコンの配置
+  - _Requirements: F03_
 
-### 3. UIコンポーネントの実装
-- [x] 3.1 共通レイアウト (Header, Footer/BottomNav) の作成
-- [x] 3.2 セットリスト一覧画面 (SetlistContainer) の実装
-- [x] 3.3 アコーディオン形式の詳細表示 (SetlistItem, SongDetail) の実装
-  - _Requirements: F01, F02_
+### 7. 追加コンテンツ画面の実装
+- [ ] 7.1 館内図画面 (`src/app/map/page.tsx`) の作成
+  - _Requirements: F05_
+- [ ] 7.2 スケジュール画面 (`src/app/schedule/page.tsx`) の作成
+  - タイムライン形式のリスト表示
+  - _Requirements: F05_
 
-### 4. ブラッシュアップと検証
-- [x] 4.1 モバイル実機を想定したレスポンシブ・表示確認
-  - ビルドテストによる検証完了
-- [x] 4.2 GitHub リポジトリへのプッシュ準備
-  - `git init` 済み、`README.md` 等の整備
+### 8. ナビゲーションの改善
+- [ ] 8.1 BottomNav の更新
+  - 不要な「Profile」ボタンを削除
+  - 「Home」「Setlist」の2大メニューに集約
+  - 現在のパスに応じたアクティブ状態の表示切り替え
+  - _Requirements: F04_
