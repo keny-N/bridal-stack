@@ -50,5 +50,5 @@
 - [x] 11.1 型定義 (`src/types/setlist.ts`) に Spotify, Apple Music などのURLフィールドを追加
 - [x] 11.2 `SongDetail` コンポーネントのUIを更新し、各プラットフォームへのリンクボタンを配置
 - [x] 11.3 `setlist.json` の全12曲に対して、各プラットフォームのURLを調査して追記
-- [ ] 11.4 変更をコミットしてGitへプッシュ
+- [x] 11.4 変更をコミットしてGitへプッシュ
 
