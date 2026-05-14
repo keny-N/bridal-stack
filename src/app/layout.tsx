@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import GitHubLink from "@/components/GitHubLink";
 
 export const metadata: Metadata = {
   title: "Bridal Stack - BGM & Messages",
@@ -15,6 +16,7 @@ export default function RootLayout({
     <html lang="ja">
       <body>
         {children}
+        <GitHubLink />
       </body>
     </html>
   );

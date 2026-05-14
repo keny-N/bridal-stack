@@ -31,3 +31,11 @@
 2. The システム shall 各楽曲の詳細において「選曲の想い」を表示する
 3. The システム shall YouTubeへのリンクを提供し、その場で楽曲を確認できるようにする
 4. The システム shall ネタバレ防止の確認ダイアログを、1セッション（ブラウザを閉じるまで）につき1回のみ表示し、利便性を確保する
+
+### Requirement 4: エンジニア向けGitHubリンク (F07)
+**Objective:** As a 開発者, I want ゲストやエンジニアにソースコードを公開し、どのように作られたかを知ってもらいたい
+
+#### Acceptance Criteria
+1. The システム shall 画面の右下にGitHubアイコンを表示する
+2. The GitHubアイコンをタップした際、`https://github.com/keny-N/bridal-stack` に別タブで遷移する
+3. The アイコンは画面スクロールに追従（Fixed）し、他のコンテンツを過度に邪魔しないデザインにする
