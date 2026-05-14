@@ -9,4 +9,6 @@ export interface SetlistItem {
   lyrics: string;
   lyrics_url?: string;
   youtube_url?: string;
+  spotify_url?: string;
+  apple_music_url?: string;
 }
