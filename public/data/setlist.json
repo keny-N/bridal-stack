@@ -1,29 +1,110 @@
 [
   {
+    "id": "scene-00",
+    "scene_name": "オープニングムービー",
+    "song_title": "overture",
+    "artist_name": "ももいろクローバーＺ",
+    "message": "ももクロのライブの始まりはいつもこの曲から始まります！盛り上がっていきましょう！",
+    "lyrics": "",
+    "youtube_url": "https://www.youtube.com/watch?v=YsKxqFDrXzI"
+  },
+  {
     "id": "scene-01",
-    "scene_name": "ゲスト迎賓",
-    "song_title": "Café de Paris",
-    "artist_name": "Wedding Jazz Quintet",
-    "message": "ゲストの皆様にリラックスしていただきたく、二人がよくカフェで聴いているこの曲を選びました。",
-    "lyrics": "Instrumental (No Lyrics)",
-    "lyrics_url": ""
+    "scene_name": "入場",
+    "song_title": "ロードショー",
+    "artist_name": "ももいろクローバーＺ",
+    "message": "披露宴の幕開けにぴったりの曲です！歌詞に、「これから皆様はこのShowの一部になります」とあるように皆様も披露宴に欠かせない存在です！",
+    "lyrics": "",
+    "youtube_url": "https://www.youtube.com/watch?v=MLiq62wYjWY"
   },
   {
     "id": "scene-02",
-    "scene_name": "新郎新婦入場",
-    "song_title": "Wonderful Day",
-    "artist_name": "Example Artist",
-    "message": "扉が開く瞬間の盛り上がりを重視して選びました！この曲のサビにある『最高の1日が始まる』というフレーズが、今の私たちの気持ちにぴったりです。",
-    "lyrics": "It's a wonderful day, everything is bright.\nHand in hand, we start our life tonight.\nEverything's gonna be alright, it's a wonderful day.",
-    "lyrics_url": "https://example.com/lyrics/wonderful-day"
+    "scene_name": "乾杯",
+    "song_title": "ニッポン笑顔百景",
+    "artist_name": "ももいろクローバーＺ",
+    "message": "「笑おう 笑おう さあ笑いましょ こんな時代こそ 笑いましょ」とサビ部分がポジティブな曲になっているので乾杯の瞬間にぴったりな曲になっています！",
+    "lyrics": "",
+    "youtube_url": "https://www.youtube.com/watch?v=M1zLG5PVMO4"
   },
   {
     "id": "scene-03",
-    "scene_name": "乾杯",
-    "song_title": "Cheers to Love",
-    "artist_name": "BGM Masters",
-    "message": "乾杯の瞬間にふさわしい、明るい曲を選びました！皆様との新しい門出を祝して。",
-    "lyrics": "Raise your glass, fill it high.\nLet's celebrate under the sky.\nCheers to love, cheers to you.",
-    "lyrics_url": ""
+    "scene_name": "ケーキ入刀",
+    "song_title": "ココ☆ナツ -ZZ ver.-",
+    "artist_name": "ももいろクローバーＺ",
+    "message": "ももクロの定番夏曲でテレビでもよく歌っているので知ってる人も多いと思います！みなさんに盛り上がってほしいタイミングなのでこの曲を選曲しました！",
+    "lyrics": "",
+    "youtube_url": "https://www.youtube.com/watch?v=Hc0_DJ8JUUA"
+  },
+  {
+    "id": "scene-04",
+    "scene_name": "新婦中座",
+    "song_title": "コノウタ",
+    "artist_name": "ももいろクローバーＺ",
+    "message": "私の好きな曲で、「自分が嫌になりそうになった時に振り向けば仲間が支えてくれた」と歌詞があるように周りの人に支えられながらがんばってこれたという思いを込めて歩きます！",
+    "lyrics": "",
+    "youtube_url": "https://www.youtube.com/watch?v=RkV_y18Yq1M"
+  },
+  {
+    "id": "scene-05",
+    "scene_name": "新郎中座",
+    "song_title": "GODSPEED",
+    "artist_name": "ももいろクローバーＺ",
+    "message": "みんなが助けてくれたから俺は日々前に進み続けれています！そんな思いを曲から伝えることができればいいなと思っています！",
+    "lyrics": "",
+    "youtube_url": "https://www.youtube.com/watch?v=yle6mFfUpow"
+  },
+  {
+    "id": "scene-05-movie",
+    "scene_name": "プロフィールムービー",
+    "song_title": "モノクロデッサン",
+    "artist_name": "ももいろクローバーＺ",
+    "message": "皆様の存在が私たちの人生に色付けてくれてとても楽しい日々を過ごすことができています！誰一人として私たちの人生には欠かすことのできない大切な人であることを曲から伝えれたらと思っています！",
+    "lyrics": "",
+    "youtube_url": "https://www.youtube.com/watch?v=zeyTKRWbPFI"
+  },
+  {
+    "id": "scene-06-a",
+    "scene_name": "再入場 候補A",
+    "song_title": "サラバ、愛しき悲しみたちよ",
+    "artist_name": "ももいろクローバーＺ",
+    "message": "この曲はももクロでも人気の曲なので、再入場時盛り上がると思い入れました！昔のドラマの曲なのでもしかしたら知ってる人も多いかも？",
+    "lyrics": "",
+    "youtube_url": "https://www.youtube.com/watch?v=-8siD2RjuYU"
+  },
+  {
+    "id": "scene-06-b",
+    "scene_name": "再入場 候補B",
+    "song_title": "怪盗少女 -ZZ ver.-",
+    "artist_name": "ももいろクローバーＺ",
+    "message": "誰もが聞いたことがある曲だと思い、再入場時に盛り上がると思い選曲しました！新郎新婦ともにカラオケでは振り付け付きで踊れるので一緒にカラオケ行く際にはぜひリクエストしてください！",
+    "lyrics": "",
+    "youtube_url": "https://www.youtube.com/watch?v=3_gT1Ed1EmM"
+  },
+  {
+    "id": "scene-06-c",
+    "scene_name": "再入場 候補C",
+    "song_title": "走れ！ -ZZ ver.-",
+    "artist_name": "ももいろクローバーＺ",
+    "message": "ももクロのライブの定番曲でもあり、「笑顔が止まらない！踊るココロ止まらない！」と歌詞にある通り披露宴の楽しい雰囲気を皆様にもっと感じてもらいたいです！",
+    "lyrics": "",
+    "youtube_url": "https://www.youtube.com/watch?v=QSI-dvBS4JI"
+  },
+  {
+    "id": "scene-07",
+    "scene_name": "記念品贈呈",
+    "song_title": "仏桑花",
+    "artist_name": "ももいろクローバーＺ",
+    "message": "新婦が両親に伝えたいメッセージがすべてこの曲に込められています。ぜひ曲の歌詞を見てメッセージを感じ取ってください！",
+    "lyrics": "",
+    "youtube_url": "https://www.youtube.com/watch?v=OgzA6-frzBI"
+  },
+  {
+    "id": "scene-08",
+    "scene_name": "新郎新婦退場",
+    "song_title": "Link Link",
+    "artist_name": "ももいろクローバーＺ",
+    "message": "皆様と離れていてもずっと心はつながっている　また出会うことができる！ここでただサヨナラするのではなく再開を約束する！といったメッセージをこの曲に込めています！",
+    "lyrics": "",
+    "youtube_url": "https://www.youtube.com/watch?v=zo_n9SzuMyY"
   }
 ]

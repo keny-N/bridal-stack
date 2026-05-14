@@ -1,35 +1,25 @@
-# Design Document: bridal-stack (Portal Edition)
+# Design Document: bridal-stack (Setlist Edition)
 
 ## Overview
-ホーム画面を起点とし、複数の情報（セットリスト、式場公式サイト、館内図、スケジュール）を提示する「ゲスト用総合ポータル」への拡張設計。
+セットリスト共有に特化したミニマルな設計。不要な機能を削ぎ落とし、新郎新婦のメッセージを際立たせる。
 
 ### Goals
-- **ポータル（玄関口）の確立**: `/`（ルート）をホーム画面とし、直感的なタイルUIを導入する。
-- **ルーティング構成の最適化**: `src/app` 配下に各機能ごとのページを配置する。
-- **一貫したナビゲーション**: 全画面に共通の `BottomNav` を配置し、ホームへの即時復帰を可能にする。
+- **シングルフォーカス**: セットリストへの導線を最優先にする。
+- **ネタバレ防止UI**: ゲストの期待感を高めるインタラクション。
 
 ## Architecture
 
 ### Routing Map
 | Path | Component | Description |
 |------|-----------|-------------|
-| `/` | `Home` | ポータル画面（タイルボタン配置） |
-| `/setlist` | `SetlistPage` | BGMセットリスト画面（既存機能の移設） |
-| `/map` | `MapPage` | 館内図画面 |
-| `/schedule` | `SchedulePage` | タイムライン画面 |
+| `/` | `Home` | ホーム画面（セットリストへの案内） |
+| `/setlist` | `SetlistPage` | ネタバレ防止機能付きセットリスト |
 
-### Technology Stack
-- **Next.js (App Router)**: 標準のルーティング機能（Linkコンポーネント）を使用。
+### Components
+- `MenuTile`: ホーム画面のメインボタン（現在は「セットリスト」のみ）。
+- `BottomNav`: 「Home」と「Setlist」の2大メニュー。
+- `SetlistItem`: シーン名のみを表示し、タップで開閉。
+- `SongDetail`: 曲名、アーティスト名、想い、YouTubeリンクを表示。
 
-## Components and Interfaces
-
-### New UI Components
-| Component | Intent | Req Coverage |
-|-----------|--------|--------------|
-| `MenuTile` | ホーム画面に配置する押しやすいタイル型ボタン | F03 |
-| `WelcomeMessage` | ゲストを歓迎する華やかなセクション | F03 |
-
-## BottomNav Layout
-- **Home**: ポータル画面への遷移。
-- **Setlist**: セットリスト画面への遷移。
-- **(Other)**: 将来的に機能が増えた場合のみ追加。初期は上記2つのみ表示。
+## Data Schema
+`public/data/setlist.json` に全10シーン（再入場候補を含む）の情報を保持。

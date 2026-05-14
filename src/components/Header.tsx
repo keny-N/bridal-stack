@@ -3,8 +3,7 @@ import styles from "./Header.module.css";
 export default function Header() {
   return (
     <header className={styles.header}>
-      <h1 className={styles.title}>Wedding Reception</h1>
-      <p className={styles.subtitle}>BGM Setlist & Messages</p>
+      <h1 className={styles.title}>Our Wedding BGM</h1>
     </header>
   );
 }
