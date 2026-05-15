@@ -90,6 +90,14 @@
   background: #FA243C;
 }
 
+.amazonMusic {
+  background: #00A8E1;
+}
+
+.lineMusic {
+  background: #00C300;
+}
+
 .musicButton:active {
   opacity: 0.8;
 }

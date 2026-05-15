@@ -11,4 +11,6 @@ export interface SetlistItem {
   youtube_url?: string;
   spotify_url?: string;
   apple_music_url?: string;
+  amazon_music_url?: string;
+  line_music_url?: string;
 }

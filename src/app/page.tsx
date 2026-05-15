@@ -28,6 +28,13 @@ export default function Home() {
             }
           />
         </div>
+
+        <div className={styles.notice}>
+          <p>
+            ※このアプリは、本日の挙式・披露宴終了後、<br />
+            まもなくアクセスできなくなります。
+          </p>
+        </div>
       </div>
       <BottomNav />
     </main>
